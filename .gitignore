@@ -1,0 +1,49 @@
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django local database
+db.sqlite3
+
+# Django log files
+*.log
+
+# Media files (if you store uploads locally)
+media/
+
+# Static files (optional if you want to exclude static collected files)
+staticfiles/
+
+# VSCode settings folder (if you use VSCode)
+.vscode/
+
+# macOS files (if on Mac)
+.DS_Store
+
+# pyenv environment file
+.python-version
+
+# Mypy cache
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# pytest cache
+.pytest_cache/
+
+# Django migrations (optional)
+# Exclude all migration files except __init__.py to avoid conflicts
+**/migrations/*.py
+!**/migrations/__init__.py
+**/migrations/*.pyc
+
+# celery beat schedule file
+celerybeat-schedule
