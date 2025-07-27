@@ -12,4 +12,6 @@ urlpatterns = [
         '<slug:course_slug>/<slug:lesson_slug>/get-comments/',
         views.get_comments
     ),
+    path('<slug:course_slug>/<slug:lesson_slug>/get-quiz/', views.get_quiz),
+
 ]
